@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    min-height: 100vh;
+    font-size: 14px;
+    font-family: "Inter";
+}
+.daddy {
+    background-color: hsl(0, 0%, 12%);
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    max-height: 600px;
+    border-radius: 5px;
+}
+.card {
+    width: 100%;
+    
+
+}
+.img-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+}
+.content{
+    text-align: center;
+    line-height: 28px;
+}
+h1{
+color: hsl(0, 0%, 100%);
+}
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    margin-top: 5px;
+}
+.front-end {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-top: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    
+    
+}
+ul li{
+    padding: 10px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    text-align: center;
+}
